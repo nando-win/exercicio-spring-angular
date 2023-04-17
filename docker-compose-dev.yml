@@ -1,4 +1,4 @@
-version: 3
+version: "3"
 # primeiro uso
 # docker-compose -f docker-compose-dev.yml up
 
@@ -13,4 +13,3 @@ services:
       MYSQL_DATABASE: exercicio_spring_angular
     ports:
       - "33066:3306"
-
